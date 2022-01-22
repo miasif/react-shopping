@@ -64,7 +64,7 @@ export const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>Asif.</Logo>
+          <Logo>TEMPEST.</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
