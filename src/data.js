@@ -39,3 +39,18 @@ export const categories = [
     title: "LIGHT JACKETS",
   },
 ];
+
+export const popularProduct = [
+  {
+    id: 1,
+    img: "https://picsum.photos/seed/picsum/200/300",
+  },
+  {
+    id: 1,
+    img: "https://picsum.photos/seed/picsum/200/300",
+  },
+  {
+    id: 1,
+    img: "https://picsum.photos/seed/picsum/200/300",
+  },
+];
