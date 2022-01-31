@@ -67,8 +67,6 @@ const Icon = styled.div`
 `;
 
 const Product = ({ item }) => {
-  const location = useLocation();
-  const cat = location.pathname.split("/")[2];
   return (
     <Container>
       <Circle />
