@@ -129,9 +129,7 @@ const Product = ({ item }) => {
       setQuantity(quantity + 1);
     }
   };
-  const handleClick = () => {
-    axios.post;
-  };
+
   return (
     <Container>
       <Navbar />
@@ -166,7 +164,7 @@ const Product = ({ item }) => {
               <Amount>{quantity}</Amount>
               <Add onClick={() => handleQuantity("inc")} />
             </AmountContainer>
-            <Button onClick={handleClick}>ADD TO CART</Button>
+            <Button>ADD TO CART</Button>
           </AddContainer>
         </InfoContainer>
       </Wrapper>
